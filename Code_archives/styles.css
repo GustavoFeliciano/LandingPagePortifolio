@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #D9D9D9;
+    color: #333;
+    line-height: 1.6;
+    font-size: 14px;
+  }
+  /* Shapes for the site design */
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 1.563vw solid transparent;
+	border-right: 1.563vw solid transparent;
+	border-top: 1.563vw solid #A49A8D;
+    background: linear-gradient(90deg, #A49A8D, #ACA294);
+}
+
+  /* Font Designs Section */
+  
+  .content-text{
+    text-align: start;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-indent: 2px;
+    color: white;
+  }
+
+  .h2-text{
+    text-align: start;
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 106.6%;
+    color: white;
+  }
+
+  .h2-text-type2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 106.6%;
+    color: white;
+  }
+
+  .h2-text-type2{
+    text-align: start;
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 106.6%;
+    color: white;
+    text-align: center;
+  }
+
+  .h3-text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.333333334em;
+    line-height: 106.6%;
+    color: white;
+  }
+  
+  .company-name {
+    font-size: 4vw;
+    text-align: center;
+  }
+  
+  .btn-agendar {
+    margin-top: 20px;
+    background-color: #505050;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 2em;
+    font-weight: 300;
+    color: white;
+    transition: background 0.3s;
+    width: 13.51vw;
+    height: 4.54vw;
+  }
+  
+  .btn-agendar:hover {
+    background-color: #555;
+  }
+  
+  /* Design section SETOR 1*/
+
+  .header {
+    background-image: url('../Imagens/Tattoo_Bg01.png');
+    background-size: cover;
+    background-position: center;
+    height: 33.854vw;
+    position: relative;
+  }
+
+  .overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .company-name{
+    font-family: "Ruge Boogie", cursive;
+    font-weight: 400;
+    font-size: 7.111107657em;
+  }
+
+  .overlay .btn-agendar{
+    position: relative;
+    margin-left: 14.583vw;
+    margin-bottom: 3.333vw;
+    margin-top: auto;
+    margin-right: auto;
+  }
+
+  /* Design section SETOR 2*/
+  .section-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 14.583vw;
+    padding-right: 14.583vw;
+    min-height: 43.854vw;
+    height: fit-content;
+    background: linear-gradient(90deg,#3A3A3A, #C6B9A8 63%)
+  }
+  
+  .section-2 .image {
+    width: 27.396vw;
+    height: 36.406vw;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    object-fit: fill;
+  }
+  
+  .section-2 .h2-text{
+    margin-top: 3.125vw;
+  }
+  
+  .section-2 p {
+    width: 24.635vw;
+    margin-top: 1.563vw;
+  }
+  
+  .section-2 img {
+    max-width: 100%;
+    border-radius: 15px;
+  }
+
+  #first-h2-text {
+    margin-top: 9vw;
+  }
+
+  .section-2 #last-content-text{
+    margin-bottom: 8.5vw;
+  }
+  
+  /* Design section SETOR 3*/
+
+  .triangle-down{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-3 {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .section-3 .h2-text {
+    margin-top: 1.615vw;
+  }
+  
+  .section-3 .h2-text-type2 {
+    margin-top: 5.208vw;
+    margin-bottom: 1.042vw;
+    max-width: 24.635vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .section-3 .btn-agendar{
+    margin-top: 1.042vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-3 .h3-text{
+    width: 24.635vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Design section SETOR 4*/
+
+  .section-4 {
+    padding-top: 1.875vw;
+    padding-left: 14.583vw;
+    padding-right: 14.583vw;
+    min-height: 29.792vw;
+    max-height: fit-content;
+  }
+  
+  .testimonials {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .testimonial{
+    width: 19.115vw;
+    min-height: 29.792vw;
+    max-height: fit-content;
+  }
+  
+  .testimonial-text-box{
+    width: 18.229vw;
+    min-height: 7.083vw;
+    max-height: fit-content;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0.417vw;
+    
+  }
+  .testimonial .avatar-icon {
+    position: absolute;
+    width: 2.083vw;
+    height: 2.083vw;
+    border-radius: 50%;
+  }
+  
+  .testimonials .content-text {
+    font-size: 1vw;
+    font-weight: 500;
+    text-align: start;
+    margin-left: 2.5vw;
+    margin-top: 0.2vw;
+    color: black;
+  }
+
+  p.content-testimonial-text {
+    width: fit-content;
+    margin-top: 1.042vw;
+    text-align: center;
+  }
+  .content-testimonial-text {
+    color: #505050;
+    font-weight: 300;
+    font-size: 0.888888889em;
+  }
+
+  .testimonial .tattoo-art{
+    width: 18.229vw;
+    height: 18.229vw;
+    margin-top: 2.708vw;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 1.042vw 1.563vw 1.563vw #323533;
+  }
+
+/* Design Section SETOR 5*/
+  .section-galeria {
+    margin-top: 5.208vw;
+    text-align: center;
+  }
+  .section-galeria .h2-text{
+    text-align: center;
+    margin-bottom: 3.333vw;
+  }
+  
+  .gallery {
+    margin-top: 3.333vw;
+    display: inline;
+    height: 18.229vw;
+    border-radius: 15px;
+  }
+  
+  .gallery img {
+    height: 18.229vw;
+    width: 18.229vw;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .footer .h3-text{
+    margin-top: 1.4vw;
+    width: 35vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+  .footer .content-text{
+    text-align: center;
+    margin-top: 9.375vw;
+    margin-bottom: auto;
+  }
+
+  .footer .btn-agendar{
+    margin-top: 0.833vw;
+  }
+
+  .footer {
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(#D9D9D9, #3A3A3A);
+    min-height: 25.052vw;
+  }
